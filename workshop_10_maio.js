@@ -1,7 +1,5 @@
 /* global gsap */
 
-console.clear();
-
 document.addEventListener('DOMContentLoaded', () => {
   gsap.registerPlugin(SplitText, Flip, GSDevTools)
 
