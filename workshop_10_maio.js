@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .from('.header1_image-wrapper', {
       xPercent: 100,
       duration: 0.5,
-      ease: 'back.out(1)'
+      ease: 'bounce.out'
     }, '<')
 
   GSDevTools.create({
